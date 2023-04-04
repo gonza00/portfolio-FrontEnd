@@ -7,6 +7,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -24,10 +25,8 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Log In</a>
-                    </li>
-                    <li class="nav-item">
+                    
+                    <li class="nav-item align-content-center">
                         <a href="https://www.facebook.com/">
                             <i class="bi bi-facebook"></i>
                         </a>
@@ -37,6 +36,9 @@
                         <a href="https://twitter.com/">
                             <i class="bi bi-twitter"></i>
                         </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Log In</a>
                     </li>
                 </ul>
             </div>
@@ -52,9 +54,17 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod orci vitae dui vulputate
                         efficitur. Nulla sollicitudin eleifend massa, non commodo odio interdum vel.</p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-1 text-center">
+                    <i class="bi bi-pencil-fill" style="cursor:pointer" onclick="showInput()"></i>
+                </div>
+                <div class="col-md-5">
                     <img src="profile.png" alt="Profile Picture" widht class="img-fluid">
                 </div>
+            </div>
+            <div class="row align-items-center">
+                <button class="btn btn-primary">Tengo interes</button>
+                <button class="btn btn-info">Añadir sección</button>
+                <button class="btn btn-info">Más</button>
             </div>
         </div>
     </section>
@@ -209,6 +219,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
